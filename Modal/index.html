@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Modal</h1>
+
+    <div class="container">
+      <button class="button" type="button" data-modal-open="modal1">
+        Open
+      </button>
+    </div>
+
+    <div class="modal" id="modal1">
+      <div class="modal-container">
+        <div class="modal-inner">
+          <header class="modal-header">
+            <h2 class="modal-title">こんにちは</h2>
+            <button class="modal-close" data-modal-close>&times;</button>
+          </header>
+          <main class="modal-content">
+            <p>モーダルだよ</p>
+            <p>
+              <img
+                src="https://media.giphy.com/media/MWSRkVoNaC30A/giphy.gif"
+                alt=""
+              />
+            </p>
+            <p>
+              <a href="https://giphy.com/gifs/cat-hello-oh-MWSRkVoNaC30A"
+                >via GIPHY</a
+              >
+            </p>
+          </main>
+        </div>
+      </div>
+      <div class="modal-overlay" data-modal-close></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
