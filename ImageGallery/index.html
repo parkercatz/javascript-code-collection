@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ImageGallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">ImageGallery</h1>
+
+    <div class="container">
+      <div id="myGallery" class="gallery">
+        <ol class="gallery-images">
+          <li id="img1" class="gallery-image-item active">
+            <img src="https://source.unsplash.com/PGHIP0o15Hk/900x450" alt="" />
+          </li>
+          <li id="img2" class="gallery-image-item">
+            <img src="https://source.unsplash.com/NodtnCsLdTE/900x450" alt="" />
+          </li>
+          <li id="img3" class="gallery-image-item">
+            <img src="https://source.unsplash.com/1ejZ2XBjJgU/900x450" alt="" />
+          </li>
+        </ol>
+        <ol class="gallery-thumbnails">
+          <li class="gallery-thumbnail-item" data-gallery-image="img1">
+            <img src="https://source.unsplash.com/PGHIP0o15Hk/256x144" alt="" />
+          </li>
+          <li class="gallery-thumbnail-item" data-gallery-image="img2">
+            <img src="https://source.unsplash.com/NodtnCsLdTE/256x144" alt="" />
+          </li>
+          <li class="gallery-thumbnail-item" data-gallery-image="img3">
+            <img src="https://source.unsplash.com/1ejZ2XBjJgU/256x144" alt="" />
+          </li>
+        </ol>
+      </div>
+      <p>Images from <a href="https://unsplash.com">Unsplash</a>.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
