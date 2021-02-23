@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GifRandom</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  </head>
+  <body>
+    <h1 class="title">GifRandom</h1>
+
+    <div class="container has-text-centered">
+      <h1 class="title">猫GIFガチャ</h1>
+      <div id="result" class="result hidden">
+        <figure>
+          <img id="gif" src="" alt="" />
+          <figcaption>
+            GIFs by <a href="https://giphy.com/">GIPHY</a>
+          </figcaption>
+        </figure>
+        <hr />
+      </div>
+      <button id="play" class="button is-primary">遊ぶ</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

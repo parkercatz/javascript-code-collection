@@ -1,0 +1,32 @@
+body {
+  padding: 2rem;
+}
+
+.title {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 840px;
+  padding: 2rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
